@@ -15,4 +15,4 @@ Depending on your preferred package manager, follow the instructions below to de
 ### Deployement
 
 - Run `serverless offline start` to test locally
-- Run `serverless deploy` to deploy to AWS
+- Run `serverless deploy --region us-east-1` to deploy to AWS
