@@ -10,6 +10,7 @@ const serverlessConfiguration: AWS = {
     apiGateway: {
       minimumCompressionSize: 1024,
       shouldStartNameWithService: true,
+      apiKeys: ["serverless-ps-kfc-key"],
     },
     environment: {
       AWS_NODEJS_CONNECTION_REUSE_ENABLED: '1',

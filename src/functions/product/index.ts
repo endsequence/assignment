@@ -6,6 +6,7 @@ export const getAllProducts = {
             http: {
                 method: 'get',
                 path: 'product',
+                private: true
             },
         },
     ],
@@ -18,6 +19,7 @@ export const createProduct = {
             http: {
                 method: 'post',
                 path: 'product',
+                private: true
             },
         },
     ],
